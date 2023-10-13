@@ -1,0 +1,20 @@
+{
+  "name": "bun-quickstart",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts",
+    "test:watch": "bun test --watch"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "bun-types": "^1.0.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "figlet": "^1.6.0",
+    "react": "^18.2.0"
+  }
+}
